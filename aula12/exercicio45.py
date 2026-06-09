@@ -2,16 +2,35 @@
 from random import randint
 print('{:=^40}'.format('Vamos jogar JOKENPÔ'))
 print(""" ESCOLHA SUA MÃO
-[1] PEDRA      
-[2] PAPEL
-[3] TESOURA""")
+[0] PEDRA      
+[1] PAPEL
+[2] TESOURA""")
 jogo = ('PEDRA', 'PAPEL', 'TESOURA')
-mão = int(2)
-cpu = randint(1, 3)
-print('{}PC, {}User'.format(jogo[cpu], jogo[mão]))
-if cpu == mão:
-    print('Jogo empatado CPU{} JOGADOR {}.'.format(jogo[cpu], jogo[mão])) 
-elif cpu == 1 and mão == 2:
-    print('Você venceu, CPU escolheu {}, JOGADOR escolheu {}'.format(jogo[cpu], jogo[mão]))
-elif cpu == 2 and mão == 3:
-    
+mão = int(input('Escolha sua jogada: '))
+if mão >= 3:
+    print('Jogo INVALIDO')
+cpu = randint(0, 2)
+print(30* '=+')
+print('a CPU jogou {} e o PLAYER jogu {} é o resutado foi... '.format(jogo[cpu], jogo[mão]), end='')
+if cpu == 0:
+    if mão == 1:
+        print('PLAYER GANHOU')
+    elif cpu == mão and mão == cpu:
+        print('EMPATE')
+    else:
+        print('CPU GANHOU')
+elif cpu == 1:
+    if mão == 0:
+        print('CPU GANHOU')
+    elif cpu == mão and mão == cpu:
+        print('EMPATE')
+    else:
+        print('PLAYER GANHOU')
+else:
+    if mão == 0:
+        print('PLAYER GANHOU')
+    elif cpu == mão:
+        print('EMPATE')
+    else:
+        print('CPU GANHOU')
+print(30* '=+')
