@@ -1,0 +1,1 @@
+#Cria um programa que calcule o valor a ser pago levando em consideração o preço normal é condição de pagamento. 1 -  a vista cheque/dinheiro, 2 - a vista no cartão, 3 - em até 2x no cartão - preço normal, 4 - 3x ou mais no cartão: 20% de juros.

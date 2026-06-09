@@ -1,3 +1,4 @@
+#Aula sobre colocar cores no terminal de execução do código
 print('\033[1;37;44mOlá, mundo\033[m')
 nome = 'Gabriel'
 print('Olá {}{}{}, como vai?'.format('\033[1;34;43m', nome, '\033[m'))

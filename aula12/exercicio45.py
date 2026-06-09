@@ -1,0 +1,1 @@
+#Cria um programa que jogue JOKENPÔ com o usuario.

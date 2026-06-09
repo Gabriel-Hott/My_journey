@@ -1,0 +1,1 @@
+#Fazer um programa que leia o peso e a altura de uma pessoa, e qualcule seu IMC e mostre seu status, de acordo com a tabela. 1 - Abaixo de 18.5: abaixo do peso, 2 - entre 18.5 e 25: peso ideal, 3 - 25 até 30: sobrepeso, 4 - 30 até 40: obesidade, 5 - acima de 40: obesidade mórbida.

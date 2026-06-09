@@ -1,0 +1,1 @@
+#Refazer o desafio 35, mas acrescentando o recurso de mostrar que tipo de triâgulo séra formado: 1 - EQUILATERO-todos os lados iguais, 2 - ISÓSCELES-dois lados iguais, 3 - ESCALENO-Todos os lados diferentes 
