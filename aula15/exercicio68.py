@@ -12,7 +12,7 @@ while True:
     if esc == 'P' or esc == 'I':
         pc = randint(0, 10)
         soma = n + pc
-        print(f'Você jogou {n} e o computador jogou {pc}, Somando dará {soma}', end=', ')
+        print(f'Você jogou {n}º e o computador jogou {pc}, Somando dará {soma}', end=', ')
         if esc == 'P':
             if soma % 2 == 1:
                print(f'O jogo {c} deu IMPAR. você PERDEU!!!')

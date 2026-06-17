@@ -5,7 +5,7 @@ while True:
     c = 1
     if n > 0:
         while c <= 10:
-            print(f'{c:^4} X {n:^4} = {c*n:^4}')
+            print(f'{c:^2} X {n:^3} = {c*n:^4}')
             c += 1
     else:
         break
