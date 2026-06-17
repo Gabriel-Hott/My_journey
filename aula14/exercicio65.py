@@ -3,6 +3,8 @@ print(35*'+=')
 sair = 0
 c = 0
 tot = 0
+maior = 0
+menor = 0
 while sair == 0:
     n = int(input('Digite um número: '))
     c += 1
@@ -10,4 +12,12 @@ while sair == 0:
     cont = str(input('Deseja continuar[S] sim [N] não: ')).upper()
     if cont == 'N':
         sair = 1
-print('foram digitados o total de {} números, com uma media de {}'.format(c, tot/c))
+    if c == 1:
+        maior = menor = n
+    else:
+        if maior < n:
+            maior = n
+        if menor > n:
+            menor = n
+print('foram digitados o total de {} números, com uma media de {:.2f}'.format(c, tot/c))
+print ('O maior número digitado foi {} e o menor número foi {}'.format(maior, menor))

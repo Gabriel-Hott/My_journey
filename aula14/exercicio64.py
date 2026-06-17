@@ -1,5 +1,5 @@
 #Criar um programa que léie varios números pelo teclado, o programa so pararar quando o usuario digitar 999, no final deve mostrar quantos números foram digitados e qual é a soma entre eles desconsiderando o número proposto para encerar o programa.
-print('O programa so será encerrado quando chegar a 999')
+print('O programa so será encerrado quando o usuario digitar 999')
 n = 0
 c = 0
 t = 0
