@@ -1,0 +1,1 @@
+#Criar um programa que pegunte um número(x) inteiro, e mostre os (x) termos da sequencia de fibonacci
