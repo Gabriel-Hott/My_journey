@@ -1,0 +1,1 @@
+#Criar um programa aonde o usuário crie uma expressão qualquer que use parênteses(). Seu aplicativo deverá analisar se a expresão passada está em abertos e fechados na ordem correta(seria como ((A+b)83) temos que conferir se a expresão está corretamente fechada com os parênteses).
