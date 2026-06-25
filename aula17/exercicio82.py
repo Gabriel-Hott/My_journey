@@ -7,8 +7,6 @@ while True:
     r = str(input('Deseja continuar [S/N]: ')).strip()[0]
     if 'N' in r or 'n' in r:
         break
-    elif r != 'S' or r != 's':
-        print('Por favor escolha uma opção valida!')
 for c in range (0, len(l)):
     if l[c] % 2 == 1:
         li.append(l[c])
