@@ -2,7 +2,7 @@
 from random import randint
 from time import sleep
 from operator import itemgetter
-jogo = {'jogador1': randint(1, 6), 'jogador2': randint(1, 6), 'jogador3': randint(1, 6), 'jogador4': randint(1, 6)}
+jogo = {'jogador 1': randint(1, 6), 'jogador 2': randint(1, 6), 'jogador 3': randint(1, 6), 'jogador 4': randint(1, 6)}
 rank = list()
 print(f'{10*'+'}{'jogos':^10}{10*'+'}')
 for k, i in jogo.items():
