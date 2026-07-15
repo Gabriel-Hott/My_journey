@@ -12,7 +12,7 @@ def sorteia():
     for c in range(0, 5):
         numeros.append(randint(0, 100))
     for c in numeros:
-        print(c, end=', ')
+        print(c, end=', ', flush=True)
         sleep(0.8)
     print()
 
@@ -21,16 +21,16 @@ def somaPar():
     for c in numeros:
         if c % 2 == 0:
             soma += c
-            print(c, end=', ')
-    print(f'A soma de todos os números pares foi {soma}')
+            print(c, end=', ', flush=True)
+            sleep(0.8)
+    sleep(0.8)
+    print(f'A soma de todos os números pares foi {soma}', flush=True)
 
-#Código
+#Código principal
 
 cabeçalho()
-sleep(1)
-print('Os 5 números sorteados foram... ', end='')
+print('Os 5 números sorteados foram... ', end='', flush=True)
 sorteia()
-sleep(0.8)
-print('Os números pares são... ', end='')
+print('Os números pares são... ', end='', flush=True)
 somaPar()
 print('FIM DO PROGRAMA')

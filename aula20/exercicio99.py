@@ -11,7 +11,8 @@ def maior(*num):
         print(f'{c}', end=', ')
     print(f'diante disso o maior número digitado foi o {mai}')
 
-#Código
+#Código principal
+
 while True:
     lista.append(int(input('Digite um número: ')))
     esc = str(input('Deseja continuar: [S/N] ').strip())
@@ -19,4 +20,4 @@ while True:
         break
     elif esc not in 'Ss':
         print(f'Opção {esc} e uma opção invalida! Por favor escolha entre S ou N')
-maior(lista)
+maior(lista) 
