@@ -1,0 +1,1 @@
+#Dentro do pacote utilidadesCeV, temos um módulo chamado dado. Crie uma função chamada leiaDinheiro() que seja capaz de funcionar como função input(), mas com validação de daos para aceitar apenas valores que sejam monetários.(tem que aceitar números monetarios com virgula EX: R$ 120,45)
